@@ -1,0 +1,1056 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,figcaption,figure,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1 Lucida Grande,'Microsoft YaHei',"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif}
+h1{font-size:18px;font-weight:normal}
+h2{font-size:16px;font-weight:normal}
+h3{font-size:14px;font-weight:normal}
+h4,h5,h6{font-size:100%;font-weight:normal}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace}
+small{font-size:12px}
+ul,ol,li{list-style:none}
+a{text-decoration:none}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help}
+q:before,q:after{content:''}
+legend{color:#000}
+fieldset,img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+hr{border:0;height:1px}
+*{-ms-word-break:break-all;word-break:break-all;-ms-word-wrap:break-word;word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.clear{clear: both;}
+/*****************顶部*******************/
+.topbox{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(25,25,25);
+}
+.topbox span{
+    color: rgb(237,179,15);
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 20px;
+    float: left;
+}
+.topbox .tel{
+    float: right;
+    color: #fff;
+    line-height: 40px;
+    font-size: 14px;
+    margin-right:15px; 
+}
+.topbox .tel a{
+    color: rgb(237,179,15);
+}
+.topbox .tel img{
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.topbox .tel b{
+    color: rgb(237,179,15);
+    font-weight: normal;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    z-index: 999;
+    position: fixed;
+    top: 40px;
+}
+.nav .logo{
+    width: 253px;
+    height: 71px;
+    line-height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+.navbox{
+    height: 75px;
+    margin-right: 20px;
+    margin-top: 35px;
+    float: right;
+}
+.navbox>ul{
+margin-left: 100px;
+}
+.navbox>ul>li{
+    height: 65px;
+    margin-right: 40px;
+    font-size: 16px;
+    float: left;
+    line-height: 45px;
+}
+.navbox>ul>li a{
+    color: #fff;
+}
+.navbox>ul>li span{
+    display: block;
+    width: 0;
+    height: 1px;
+    border-top:1px solid #fff; 
+}
+.nav-show>li{
+    position: absolute;
+    top: 100px; 
+    width: 100%;
+    height: 180px;
+    background-color: rgb(237,179,15);
+    display: none;
+}
+.nav-show>li .navshow-box{
+    width: 1220px;
+    height: 180px;
+    margin: 0 auto;
+}
+.nav-show>li .navshow-box .boxlf{
+    float: left;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.nav-show>li .navshow-box .boxlf a{
+    font-size: 17px;
+    color: #444;
+    line-height:2;
+    font-family: 微软雅黑;
+    font-weight: 700;
+}
+.nav-show>li .navshow-box .boxrt{
+    float: right;
+    margin-top: 20px;
+}
+.nav-show>li .navshow-box .boxrt img{
+    width: 140px;
+    height: 140px;
+}
+.nav-bottom{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(0,0,0,.5);
+}
+.nav-bottombox{
+    width: 1220px;
+    height: 40px;
+    margin: 0 auto;
+   
+}
+.nav-bottom .tel-bottom{
+    float: left;
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    margin-left: 300px;
+}
+.nav-bottom .tel-bottom img{
+    opacity: 0.4;
+}
+.nav-bottom .tel-bottom a{
+    color: rgb(237,179,15);
+}
+.nav-bottom .tel-bottom  img{
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.nav-bottom .tel-bottom  b{
+    color: rgb(237,179,15);
+    font-weight: normal;
+}
+.nav-bottom  .daohang{
+    width: 175px;
+    height: 74px;
+    float: left;
+    margin-top: -14px;
+}
+/*****************banner*******************/
+.banner{
+    width: 100%;
+    height: 790px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.banner ul{
+    width: 500%;
+    height: 790px;
+    position: absolute;
+    top: 0;
+    left:-200%;
+}
+.banner ul li{
+    width: 20%;
+    height: 790px;
+    background: url(../images/banner1.jpg) no-repeat;
+    background-position: center;
+    float: left;
+}
+.banner .bf{
+    position: absolute;
+    top:395px;
+    left: 60px;
+    width: 50px;
+    height: 100px;
+    background: url(../images/arrow_lf_icon.png) no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,.2);
+    border: none;
+    outline: none;
+}
+.banner .br{
+    position: absolute;
+    top:395px;
+    right: 60px;
+    width: 50px;
+    height: 100px;
+    background: url(../images/arrow_rg_icon.png) no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,.2);
+    border: none;
+    outline: none;
+}
+/*****************产品中心*******************/
+.products{
+    width: 1220px;
+    margin: 0 auto;
+}
+.products h3{
+    font-size: 32px;
+    width: 355px;
+    height: 50px;
+    border-bottom: 1px solid #999;
+    margin: 0 auto;
+    color: #333;
+    margin-top: 60px;
+}
+.products h3 span{
+    color: rgb(27,77,166);
+}
+.products h3 b{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 3px solid rgb(237,179,15);
+    height: 48px;
+}
+.products h4{
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.products .products-show{
+    width: 590px;
+    height: 295px;
+    margin-bottom: 40px;
+    float: left;
+    position: relative;
+}
+.products .products-show:nth-child(2n){
+    margin-left: 40px;
+}
+.products .products-show img{
+    width: 295px;
+    height: 295px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.products .products-show .showtext{
+    width: 295px;
+    height: 295px;
+    background-color: rgb(27,77,166);
+    position: absolute;
+    top: 0;
+    left: 295px;
+    z-index: 2;
+}
+.products .products-show .showtext h5{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 35px;
+    text-indent: 20px;
+}
+.products .products-show .showtext span{
+    display: block;
+    width: 255px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #fff;
+}
+.products .products-show .showtext p{
+    width: 150px;
+    height: 32px;
+    background-color: rgb(237,179,15);
+    border-radius: 12px;
+    margin: 47px 0 0 20px;
+    position: relative;
+}
+.products .products-show .showtext p a{
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+}
+.products .products-show .showtext p b{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.products .products-show .showtext p i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/product_more_icon.png) no-repeat;
+    position: absolute;
+    top: 7px;
+    left: 100px;
+}
+.products .products-show .texthover{
+    width: 295px;
+    height: 295px;
+    background-color: rgba(237,179,15,.8);
+    position: absolute;
+    top: 0;
+    left: 295px;
+    z-index: 1;
+}
+/*****************产品广告*******************/
+.advertisement{
+    width: 100%;
+    height: 400px;
+    background: url(../images/advertisement_bg.jpg) no-repeat;
+    background-position: center;
+}
+.advertisement ul{
+    float: right;
+    margin-top: 55px;
+    margin-right: 5%;
+}
+.advertisement ul li{
+    float: left;
+    margin-left: 10px;
+}
+.advertisement ul li img{
+    border-radius: 5px;
+}
+.advertisement ul li p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 26px;
+    text-indent: 20px;
+}
+/*****************产品优势*******************/
+.advantage{
+    width: 100%;
+    height: 1300px;
+    background: url(../images/advantage_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.advantage-box{
+    width: 1220px;
+    margin: 0 auto;
+}
+.advantage-box h3{
+    font-size: 32px;
+    width: 381px;
+    height: 50px;
+    border-bottom: 1px solid #999;
+    margin: 0 auto;
+    color: #333;
+    margin-top: 60px;
+}
+.advantage-box h3 span{
+    color: rgb(27,77,166);
+}
+.advantage-box h3 b{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 3px solid rgb(237,179,15);
+    height: 48px;
+}
+.advantage-box h4{
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.advantage-box h5{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(27,77,166);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.advantage-box h5 a{
+    color: #fff;
+    background-color: rgb(237,179,15);
+    padding: 8px 40px;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+.advantage-box .advantage-show{
+    width: 580px;
+    height: 342px;
+    float: left;  
+}
+.advantage-box .advantage-show1{
+    width: 580px;
+    height: 161px;
+    border-bottom: 1px dashed #666;
+    position: relative;
+}
+.advantage-box .advantage-show1:first-child{
+    margin-bottom: 16px;
+}
+.advantage-box .advantage-show1 i{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background: url(../images/advantage_num.png) no-repeat;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 64px;
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.advantage-box .advantage-show1 b{
+    display: block;
+    font-size: 28px;
+    color: rgb(27,77,166);
+    font-weight: normal;
+    margin-left: 74px;
+    margin-top: 10px;
+}
+.advantage-box .advantage-show1 span{
+    font-size: 16px;
+    color: rgb(237,179,15);
+    line-height: 24px;
+    margin-left: 74px;    
+}
+.advantage-box .advantage-show1 p{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+    line-height: 2;
+    text-indent: 24px;
+}
+.advantage-box .advantage-banner{
+    width: 580px;
+    height: 350px;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.advantage-box .advantage-banner ul{
+    width: 2900px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: -1160px;
+}
+.advantage-box .advantage-banner ul li{
+    width: 580px;
+    height: 350px;
+    float: left;
+}
+.advantage-box .advantage-banner .ad-left{
+    width: 24px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background-color:rgb(27,77,166);  
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+.advantage-box .advantage-banner .ad-right{
+    width: 24px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background-color:rgb(27,77,166); 
+    position: absolute;
+    top: 150px;
+    right: 10px;
+}
+.advantage-box .credentials{
+    width: 580px;
+    height: 350px;
+    float: left; 
+    background: url(../images/advantage_li3_bg.png) no-repeat;
+    background-position: bottom;
+    margin-top: 40px;
+    margin-right:60px;  
+    position: relative;
+}
+.advantage-box .credentials{
+    background: url(../images/advantage_li3_bg.png) no-repeat;
+    background-position: bottom;
+}
+.advantage-box .credentials li{
+    background: url(../images/advantage_img3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.advantage-box .credentials ul .p1{
+    width: 150px;
+    height: 210px;
+    position: absolute;
+    top:0px;
+    left: 63px;
+    z-index: 2;
+}
+.advantage-box .credentials ul .p2{
+    width: 212px;
+    height: 297px;
+    position: absolute;
+    top:-30px;
+    left: 174px;
+    z-index: 3;
+}
+.advantage-box .credentials .p3{
+    width: 150px;
+    height: 210px;
+    position: absolute;
+    top:0px;
+    left: 334px;
+    z-index: 2;
+}
+.advantage-box .credentials button{
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+.advantage-box .credentials .p-left{
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.advantage-box .credentials .p-right{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+.advantage-box .service{
+    width: 1220px;
+    height: 30px;
+}
+/*****************宇锋案例见证-*******************/
+.case{
+    width: 1220px;
+    height: 517px;
+    margin: 0 auto;
+}
+.case h3{
+    font-size: 32px;
+    width: 406px;
+    height: 50px;
+    border-bottom: 1px solid #999;
+    margin: 0 auto;
+    color: #333;
+    margin-top: 60px;
+}
+.case h3 span{
+    color: rgb(27,77,166);
+}
+.case h3 b{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 3px solid rgb(237,179,15);
+    height: 48px;
+}
+.case h4{
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+.case .caseshow{
+    width: 1130px;
+    margin: 45px auto 0;
+}
+.case .caseshow ul li{
+    width: 350px;
+    height: 295px;
+    float: left;
+    margin-right:40px; 
+}
+.case .caseshow ul li:nth-child(3n){
+    margin-right:0; 
+}
+.case .caseshow ul li .compy{
+    width: 350px;
+    height: 180px;
+    background-color: rgb(27,77,166);
+    border-radius: 3px;
+    padding-top: 20px;
+}
+.case .caseshow ul li .compy i{
+    display: block;
+    width: 27px;
+    height: 27px;
+    background: url(../images/case_quotes.png) no-repeat;
+    margin-left:20px;
+    
+}
+.case .caseshow ul li .compy p{
+    font-size: 14px;
+    color: #fff;
+    width: 280px;
+    height: 120px;
+    line-height: 2;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.case .caseshow ul li .compy-logo{
+    width: 350px;
+    height: 55px;
+    margin-top: 20px; 
+}
+.case .caseshow ul li .compy-logo span img{
+    float: left;
+}
+.case .caseshow ul li .compy-logo span a{
+    font-size: 18px;
+    line-height: 55px;
+    color: #777;
+    float: right;
+}
+.panter{
+    width: 100%;
+    height: 127.5px;
+    background-color: #bcbcbd;
+    padding-top: 72.5px;
+    position: relative;
+}
+.panter .pa-left{
+    width: 24px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background-color:#bcbcbd;  
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+.panter .pa-right{
+    width: 24px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background-color:#bcbcbd; 
+    position: absolute;
+    top: 75px;
+    right:20px;
+}
+.panter .panter-box{
+    width: 1220px;
+    height: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.panter .panter-box ul{
+    width: 3910px;
+    height: 55px;
+    position: absolute;
+    top:0;
+    left: -535px;
+}
+.panter .panter-box ul li{
+    float: left;
+    width: 175px;
+    height: 55px;
+    margin-right: 85px;
+}
+
+.panter .panter-box ul li:last-child{
+    margin-right: 0;
+}
+/*****************news*******************/
+.news{
+    width: 1220px;
+    height: 560px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.news h3{
+    font-size: 32px;
+    width: 408px;
+    height: 50px;
+    border-bottom: 1px solid #999;
+    margin: 0 auto;
+    color: #333;
+    margin-top: 60px;
+}
+.news h3 span{
+    color: rgb(27,77,166);
+}
+.news h3 b{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 3px solid rgb(237,179,15);
+    height: 48px;
+}
+.news h4{
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.news .news-box{
+    width: 610px;
+    height: 220px;
+    float: left;
+    position: relative;
+}
+.news .news-box img{
+    float:left;
+}
+
+.news .news-box .img{
+    width: 0;
+    height: 0;
+    background: url(../images/news_img2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 132.5px;
+    left: 140px;
+}
+.news .news-box .nf{
+    position: absolute;
+    top: 132.5px;
+    left: 445px;
+}
+.news .news-box .text{
+    width: 305px;
+    height: 220px;
+    background-color: rgb(237,179,15);
+    float: left;
+    position: relative;
+}
+.news .news-box .text h2{
+    font-size: 18px;
+    color: #fff;
+    width: 260px;
+    margin: 20px 0 20px 15px;
+    line-height: 1.5;
+}
+.news .news-box .text p{
+    width: 260px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+.news .news-box .text  a{
+    font-size: 16px;
+    color: #fff;
+}
+.news .news-box .text a span{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 15px;
+    vertical-align: middle;
+    margin-top: -5px;
+    position: absolute;
+    top:170px;
+    left: 20px;
+}
+.news .news-box .text a i{
+    display: block;
+    font-style: normal;
+    position: absolute;
+    top:170px;
+    left: 75px;
+}
+/*****************常见问题*******************/
+.question{
+    width: 100%;
+    background-color: #f3f3f3;
+    height: 480px;
+}
+.question .question-box{
+    width: 1220px;
+    height: 371px;
+    margin: 0 auto;
+}
+.question .question-box .faq{
+    width: 590px;
+    height: 371px;
+    float: left;
+}
+.question .question-box .faq h3{
+    font-size: 20px;
+    width: 570px;
+    height: 32px;
+    border-bottom: 1px solid #999;
+    color: #333;
+    margin:50px 0 10px 20px;
+
+
+}
+.question .question-box .faq h3 span{
+    color: rgb(27,77,166);
+}
+.question .question-box .faq h3 b{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 3px solid rgb(237,179,15);
+    height: 31px;
+}
+.aqtext>li {
+    width: 575px;
+    margin-bottom: 13px;
+    margin-left: 20px;
+}
+.aqtext>li div{
+    padding-left: 35px;
+    background: url(../images/faq_q.jpg) no-repeat left 5px;
+    font-size: 16px;
+    color: #383838;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+.aqtext>li span{
+    padding-left: 35px;
+    background: url(../images/faq_a.jpg) no-repeat left 2px;
+    font-size: 14px;
+    color: #666666;
+    display: block;
+    line-height: 24px;
+}
+.question .question-box .contact{
+    width: 590px;
+    height: 315px;
+    float: left;
+    margin-left: 25px;
+}
+.question .question-box .contact h3{
+    font-size: 20px;
+    width: 590px;
+    height: 32px;
+    border-bottom: 1px solid #999;
+    color: #333;
+    margin:50px 0 10px 0;
+
+
+}
+.question .question-box .contact h3 span{
+    color: rgb(27,77,166);
+}
+.question .question-box .contact h3 b{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 3px solid rgb(237,179,15);
+    height: 31px;
+}
+.question .question-box .contact .contact-box{
+    width: 590px;
+    height: 315px;
+    background: url(../images/contact_bg.jpg) no-repeat;
+    padding: 20px 40px;
+}
+.question .question-box .contact .contact-box .name{
+    width: 250px;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+    
+    
+}
+.question .question-box .contact .contact-box .name input{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(255,255,255,0.3);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.question .question-box .contact .contact-box .leave{
+    width: 520px;
+    height: 143px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 20px;
+    border-radius: 5px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-size: 14px;
+    color: #fff;
+}
+.question .question-box .contact .contact-box button{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(255,255,255,0.3);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.cont-us{
+    width: 100%;
+    height: 594px;
+    background: url(../images/contact_map_bg.jpg) no-repeat;
+    background-size: 100% 100%;  
+}
+.cont-usbox{
+    width: 1220px;
+    height: 459px;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+.cont-us .cont-usbox h3{
+    font-size: 32px;
+    width: 388px;
+    height: 46px;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+    margin:0 0 40px 0;
+}
+.cont-us .cont-usbox h3 span{
+    color: rgb(27,77,166);
+}
+.cont-us .cont-usbox h3 b{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 3px solid rgb(237,179,15);
+    height: 54px;
+}
+.cont-us .cont-usbox .adress{
+    width: 530px;
+    height: 309px;
+    background: url(../images/contact_bg.jpg) no-repeat;
+    background-position: center;
+    float: left;
+}
+.cont-us .cont-usbox .adress h3{
+    font-size: 24px;
+    width: 300px;
+    color: #fff;
+    margin:0 auto;
+    margin-top: 20px;
+    height: 43px;
+    border-bottom: none;
+}
+.cont-us .cont-usbox h3 b{
+    display: inline-block;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(237,179,15);
+    height: 45px;
+}
+.cont-us .cont-usbox .adress span{
+    display: block;
+    width:241px;
+    height: 169px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 2;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.cont-us .cont-usbox .map{
+    width: 530px;
+    height: 315px;
+    background: url(../images/map1.png) no-repeat;
+    float: left;
+    margin-left: 140px;
+}
+.foot{
+    width: 1220px;
+    height: 62.5px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+    vertical-align: middle;
+    padding-top: 32.5px;
+}
+/*****************底部*******************/
+.foot .footbox{
+    margin: 0 auto;
+}
+.foot .footbox li{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+}
+.foot .footbox li:nth-child(2n+1){
+    width: 1px;
+    height: 16px;
+    border-right: 1px solid #fff;
+    margin: 7px 15px;
+}
+.foot .footbox li a{
+    font-size: 16px;
+    color: #fff;
+}
+.link{
+    width: 100%;
+    background-color: #232323;
+    padding-top: 10px ;
+    
+}
+.link .link-box{
+    width: 1220px;
+    height: 57px;
+    margin: 0 auto;
+}
+.link .link-box span{
+    display: inline-block;
+    font-size: 14px;
+    color: #a0a0a0;
+    line-height: 1.8;
+}
+.link .link-box a{
+    margin-right: 5px;
+    color: #666;
+    line-height: 1.5;
+}
+.link .link-box a:hover{
+    color: rgb(237,179,15);
+}
+.link .copy{
+    width: 1220px;
+    height: 45px;
+    margin: 0 auto;
+    border-top: 1px solid #a0a0a0;
+    font-size: 14px;
+    color: #a0a0a0;
+    text-align: center;
+    line-height: 40px;
+}
+.bg{
+    width: 100%;
+    height: 40px;
+    background-color: #666;
+}
